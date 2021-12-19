@@ -1,0 +1,15 @@
+- defaults:
+    link:
+        create: true
+        relink: true
+
+- clean: ['~']
+
+- link:
+    ~/.config/nvim/init.vim: .config/nvim/init.vim
+    ~/.config/nvim/plugins: .config/nvim/plugins
+    ~/.bash_profile: .bash_profile
+    ~/.config/kitty/kitty.conf: kitty.conf
+
+- shell:
+    - [git submodule update --init --recursive, Installing submodules]
