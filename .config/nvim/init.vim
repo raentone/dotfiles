@@ -53,5 +53,6 @@ call plug#begin(stdpath('data') . '/plugged')
 source ~/.config/nvim/plugins/fzf.vim
 source ~/.config/nvim/plugins/nerdtree.vim
 source ~/.config/nvim/plugins/coc.vim
+source ~/.config/nvim/plugins/kotlin-vim.vim
 
 call plug#end()
